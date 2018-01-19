@@ -1,0 +1,118 @@
+body{
+	background-image: url('background.png');
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 20px;
+	color: #c0d8da;
+	margin: auto;
+	width: 100%
+}
+#chatpickscreen {
+	background-color: #000728;
+	text-align: center;
+	padding: 10px;
+	width: 25%;
+  	margin: 0 auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#chatroominput {
+	margin:auto;
+	width: 40%;
+	background-color:#1c325d;
+	border: none;
+	text-align: center;
+	color: #c0d8da;
+}
+
+#login-submit {
+	text-align: center;
+	background-color: #d5af07;
+	padding: 10px;
+	border-radius: 50px;
+	margin: 0 auto;
+	width: 50%;
+}
+
+h1 {
+	padding: 10px;
+	color: #d5af07;
+}
+
+h2 {
+	font-size: 25px;
+	margin: 5px;
+}
+
+#welcome{
+	background-color: #000728;
+	width: 70%;
+	text-align: center;
+	margin-top: 5%;
+	margin: auto;
+	border-radius: 5px;
+}
+
+#allchat {
+	width:  70%;
+	background-color: #000728;
+	margin: auto;
+	padding: 1px;
+	border-radius: 5px;
+	display: none;
+}
+
+#chatbox{
+	background-color: #1c325d;
+	border: none;
+	 
+	width: 90%;
+	height: 50%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	overflow-y: scroll;
+}
+
+#chat{
+	padding: 10px;
+	
+}
+#input{
+	margin:auto;
+	width: 90%;
+}
+#mykey{
+	text-align: center;
+	width: 10%;
+	margin-bottom: 5px;
+	color:#c7e0e8;
+	background-color:#366bb7;
+	border: none;
+
+}
+input::placeholder {
+  color: #c7e0e8;
+}
+
+#msg{
+	width: 100%;
+	color:#c7e0e8;
+	border: none;
+	margin-bottom: 5px;
+	background-color:#366bb7;
+}
+
+#submittext{
+	width:10%;
+
+	border: none;
+	text-align: center;
+	font-weight: bold;
+	background-color:#d5af07;
+	color: #00171F;
+	margin-bottom: -30px;
+}
+

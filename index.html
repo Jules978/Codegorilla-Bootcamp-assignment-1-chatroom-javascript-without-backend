@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stijl.css">
+	<title>Coffeebreak</title>
+	<link rel="shortcut icon" href="coffee.ico"/>
+</head>
+<body>  
+<div id="welcome"><h1> Hi there, want to chat? </h1></div>
+
+<div id="chatpickscreen"> 
+
+<p>Please enter a chatroom code:
+
+	<form id="form1" onsubmit="start(); return false;">
+		<input id="chatroominput" type="text" placeholder="chatroom" name="chatroominput" />
+	</form>
+
+	<div id="login-submit" onclick="start()">
+
+		ENTER
+
+	</div>
+
+</p>
+
+</div>
+
+<div id="allchat">
+	<div id="chatbox"> <div id="chat"> </div> </div>
+	<div id="input">
+		<form id="form2" name="form2" onsubmit="submitchat(); return false;">
+		<div id= "name"> <input id="mykey" type="text" name="mykey" placeholder="username"  /> <br /> </div>
+
+			<input id="msg" name="msg"></input><br />
+		<button id="submittext" onclick="submitchat(); return false;">Send</button><br /><br />
+		</form>
+	</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="chat.js"></script>
+
+</body>
+</html>
+
