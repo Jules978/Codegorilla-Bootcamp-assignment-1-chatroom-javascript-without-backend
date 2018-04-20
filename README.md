@@ -1,6 +1,6 @@
 # javascript-chat
 a chatroom application, build in HTML, CSS, and Javascript. It works with backend provided by CodeGorilla.  
-Live version available here: http://wijzijncodegorilla.nl/julia/breakchat/. Enter a chatroom name (e.g. chat) to enter.
+Live version available here: http://codechamps.nl/julia/breakchat/. Enter a chatroom name (e.g. chat) to enter.
 This chat application was made for the first CodeGorilla bootcamp assignment.
 
 # how it works
